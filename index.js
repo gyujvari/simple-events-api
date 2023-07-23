@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.send("Hello world");
 });
 
-app.get("/data", (req, res) => {
+app.get("/events", (req, res) => {
   res.send(importData);
 });
 
